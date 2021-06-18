@@ -47,7 +47,7 @@ nav#gnb a {
 }
 
 li.mainLi:not(:last-child) a {
-    border-bottom: none;
+    border-bottom: none !important;
 }
 
 /* header#header */
@@ -90,7 +90,7 @@ div#contents {
 
 #contents>div {
     padding: 6px;
-    border: 1px solid #08f;
+    /*border: 1px solid #08f;*/
 }
 
 #contents>div#notice {
@@ -143,6 +143,32 @@ div#contents {
 
 
 /* footer#footer */
+div#footerLogo, div#familySite {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+div#companyInfo {
+    -webkit-flex: 1px;
+    -moz-flex: 1px;
+    -ms-flex: 1px;
+    -o-flex: 1px;
+    flex: 1px;
+}
+
+#footer address {
+    height: 50px;
+    line-height: 50px;
+
+}
+
+div#familySite select{
+    font-size: 24px;
+    font-weight: bold;
+}
+
 /* footer#footer */
 
 
